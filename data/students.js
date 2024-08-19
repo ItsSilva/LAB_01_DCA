@@ -11,21 +11,21 @@ const students = [
         name: 'Jane Doe',
         age: 23,
         grade: 90,
-        course: 'Computer Science'
+        course: 'Graphic Design'
     },
     {
         id: 2,
         name: 'John Smith',
         age: 24,
-        grade: 75,
+        grade: 95,
         course: 'Computer Science'
     },
     {
         id: 3,
         name: 'Jane Smith',
         age: 22,
-        grade: 80,
-        course: 'Computer Science'
+        grade: 100,
+        course: 'Graphic Design'
     }
 ]
 
