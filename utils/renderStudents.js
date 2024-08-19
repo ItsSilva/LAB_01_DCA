@@ -1,4 +1,4 @@
-export const renderStudents = (id, name, age, grade, course,) => {
+export const renderStudents = (id, name, age, grade, course) => {
 
     const studentsContainer = document.createElement('figure');
     studentsContainer.classList.add('student-info');
@@ -6,7 +6,6 @@ export const renderStudents = (id, name, age, grade, course,) => {
     const h1 = document.createElement('h1');
     const h3StudentsInfo = document.createElement('h3');
     const ul = document.createElement('ul');
-    const mean = document.createElement('h2');
 
     h1.textContent = name;
     h3StudentsInfo.textContent = 'Student Info: ';
@@ -30,7 +29,6 @@ export const renderStudents = (id, name, age, grade, course,) => {
     studentsContainer.appendChild(h1);
     studentsContainer.appendChild(h3StudentsInfo);
     studentsContainer.appendChild(ul);
-    studentsContainer.appendChild(mean);
 
     return studentsContainer;
 };
