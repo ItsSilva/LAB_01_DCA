@@ -1,14 +1,14 @@
 const students = [
     {
         id: 0,
-        name: 'John Doe',
+        name: 'Anna Smith',
         age: 25,
         grade: 85,
         course: 'Computer Science'
     },
     {
         id: 1,
-        name: 'Jane Doe',
+        name: 'Edward Doe',
         age: 23,
         grade: 90,
         course: 'Graphic Design'
