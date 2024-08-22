@@ -26,6 +26,20 @@ const students = [
         age: 22,
         grade: 100,
         course: 'Graphic Design'
+    },
+    {
+        id: 4,
+        name: 'Jean Second',
+        age: 22,
+        grade: 60,
+        course: 'Medicine'
+    },
+    {
+        id: 5,
+        name: 'Mike House',
+        age: 22,
+        grade: 100,
+        course: 'Medicine'
     }
 ]
 
